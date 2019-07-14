@@ -108,7 +108,7 @@ csx
 AppPackages/
 
 # Others
-#sql/
+sql/
 *.Cache
 ClientBin/
 [Ss]tyle[Cc]op.*
@@ -116,7 +116,7 @@ ClientBin/
 *~
 *.dbmdl
 *.[Pp]ublish.xml
-#*.pfx
+*.pfx
 *.publishsettings
 
 # RIA/Silverlight projects
@@ -156,13 +156,6 @@ $RECYCLE.BIN/
 
 #perflog
 *.e2e
+AdamDemo.Web.Studio/Uploads
 
-# build results
-pkg/
-output/
-patches/new  25555.txt
-src/packages/WebGrease.1.5.2/tools/install.ps1
-src/packages/WebGrease.1.5.2/tools/uninstall.ps1
-src/packages/log4net.2.0.3/lib/net10-full/log4net.xml
-src/packages/log4net.2.0.3/lib/net11-full/log4net.xml
-src/Luxottica.SimpleUI/Web/Luxottica.SimpleUI.Web/Logs
+*.orig
